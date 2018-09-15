@@ -8,9 +8,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">GET CON AXIOS</h1>
           <Link to='/movieList'>Movie List</Link>
+          &emsp;
           <Link to='/authorCreation'>Author Creation</Link>
         </header>
       </div>
